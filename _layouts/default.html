@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.url != "/" %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% seo title=false %}
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="name" href="{{ '/' | relative_url }}">Kevin Bryson</a>
+    <nav aria-label="Main">
+      <a href="{{ '/' | relative_url }}" {% if page.url == "/" %}aria-current="page"{% endif %}>About</a>
+      <a href="{{ '/research/' | relative_url }}" {% if page.url == "/research/" %}aria-current="page"{% endif %}>Research</a>
+      <a href="{{ '/publications/' | relative_url }}" {% if page.url == "/publications/" %}aria-current="page"{% endif %}>Publications</a>
+      <a href="{{ '/teaching/' | relative_url }}" {% if page.url == "/teaching/" %}aria-current="page"{% endif %}>Teaching</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap layout">
+  <article class="content">
+    {{ content }}
+  </article>
+
+  <aside class="side">
+    <div class="side-block">
+      <img class="portrait" src="{{ '/assets/img/kevin-bryson.jpg' | relative_url }}" alt="Portrait of Kevin Bryson" width="240" height="240" onerror="this.style.display='none'">
+      <p class="role">Senior Lecturer in Bioinformatics &amp; Artificial Intelligence<br>School of Computing Science<br>University of Glasgow</p>
+      <p>Head of the <a href="https://www.gla.ac.uk/schools/computing/research/researchsections/ida-section/">IDA Section</a><br>Co-lead, <a href="https://ai4biomed.org/">AI4BioMed Lab</a></p>
+    </div>
+    <div class="side-block">
+      <dl>
+        <dt>Email</dt><dd><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></dd>
+        <dt>Office</dt><dd>{{ site.author.office }}</dd>
+        <dt>ORCID</dt><dd><a href="https://orcid.org/{{ site.author.orcid }}">{{ site.author.orcid }}</a></dd>
+        <dt>Elsewhere</dt><dd>
+          <a href="https://scholar.google.com/citations?user={{ site.author.scholar }}">Google Scholar</a><br>
+          <a href="https://www.gla.ac.uk/schools/computing/staff/kevinbryson/">University profile</a><br>
+          <a href="https://eprints.gla.ac.uk/view/author/61566.html">Enlighten (Glasgow repository)</a><br>
+          <a href="https://x.com/{{ site.author.x }}">@{{ site.author.x }}</a>
+        </dd>
+      </dl>
+    </div>
+  </aside>
+</main>
+
+<footer class="wrap foot">
+  <p>© {{ 'now' | date: "%Y" }} Kevin Bryson. Built with Jekyll and hosted on GitHub Pages.</p>
+</footer>
+</body>
+</html>

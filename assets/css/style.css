@@ -1,0 +1,155 @@
+:root {
+  --ink: #1d2733;
+  --ink-soft: #4d5a68;
+  --rule: #d9dee4;
+  --paper: #ffffff;
+  --paper-soft: #f5f7f9;
+  --accent: #1f4e79;      /* deep blue, in the family of the University's navy */
+  --accent-soft: #e6eef6;
+  --measure: 66ch;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #e6e9ed;
+    --ink-soft: #a9b3bd;
+    --rule: #303842;
+    --paper: #14181d;
+    --paper-soft: #1c2228;
+    --accent: #8db8e0;
+    --accent-soft: #1f2c3a;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { font-size: 17px; }
+
+body {
+  margin: 0;
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+a { color: var(--accent); text-underline-offset: 0.15em; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.skip {
+  position: absolute; left: -999px; top: 0;
+  background: var(--accent); color: #fff; padding: .5rem 1rem;
+}
+.skip:focus { left: 0; }
+
+.wrap {
+  max-width: 62rem;
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+/* Masthead */
+.masthead {
+  border-bottom: 1px solid var(--rule);
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+}
+.masthead .wrap {
+  display: flex; align-items: baseline; justify-content: space-between;
+  flex-wrap: wrap; gap: .5rem 2rem;
+  padding-top: 1.1rem; padding-bottom: 1.1rem;
+}
+.masthead .name {
+  font-weight: 600; font-size: 1.15rem; text-decoration: none; color: var(--ink);
+}
+.masthead nav { display: flex; gap: 1.5rem; }
+.masthead nav a { text-decoration: none; color: var(--ink-soft); }
+.masthead nav a[aria-current="page"] { color: var(--ink); border-bottom: 2px solid var(--accent); }
+
+/* Layout */
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 15rem;
+  gap: 3rem;
+  padding-top: 3rem; padding-bottom: 4rem;
+}
+@media (max-width: 52rem) {
+  .layout { grid-template-columns: 1fr; gap: 2rem; padding-top: 2rem; }
+  .side { order: -1; }
+}
+
+.content { max-width: var(--measure); }
+
+h1, h2, h3 {
+  font-weight: 600; line-height: 1.2; margin: 0 0 .6em;
+}
+h1 { font-size: 2.1rem; letter-spacing: -0.01em; }
+h2 { font-size: 1.35rem; margin-top: 2.2em; }
+h3 { font-size: 1.1rem; margin-top: 1.6em; }
+h1 + p, h2 + p { margin-top: 0; }
+
+.lede {
+  font-size: 1.2rem; line-height: 1.5; color: var(--ink-soft);
+  margin-bottom: 2rem;
+}
+
+p, ul, ol, dl { margin: 0 0 1.1em; }
+ul, ol { padding-left: 1.3em; }
+li { margin-bottom: .35em; }
+
+/* Sidebar */
+.side {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-size: .93rem; line-height: 1.5; color: var(--ink-soft);
+}
+.side-block { margin-bottom: 1.8rem; }
+.portrait {
+  display: block; width: 100%; max-width: 15rem; height: auto;
+  border-radius: 4px; margin-bottom: 1rem;
+}
+.side .role { color: var(--ink); font-weight: 600; }
+.side dt { color: var(--ink); font-weight: 600; margin-top: .8em; }
+.side dd { margin: 0; }
+
+/* Publications */
+.pub-year { margin-top: 2.2em; padding-bottom: .3em; border-bottom: 1px solid var(--rule); }
+.pub { margin: 0 0 1.1em; padding-left: 1.4em; text-indent: -1.4em; }
+.pub .title { font-weight: 600; }
+.pub .venue { font-style: italic; }
+.pub .links {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-size: .88rem;
+}
+.pub .links a { margin-right: .8em; }
+
+/* Timeline (career) */
+.timeline { list-style: none; padding: 0; }
+.timeline li {
+  display: grid; grid-template-columns: 6.5rem 1fr; gap: 1rem;
+  padding: .6em 0; border-top: 1px solid var(--rule);
+}
+.timeline li:last-child { border-bottom: 1px solid var(--rule); }
+.timeline .when {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  color: var(--ink-soft); font-size: .93rem; padding-top: .15em;
+}
+
+/* Course list */
+.courses { list-style: none; padding: 0; }
+.courses li { padding: .45em 0; border-top: 1px solid var(--rule); }
+.courses li:last-child { border-bottom: 1px solid var(--rule); }
+.courses code {
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-size: .9rem; color: var(--ink-soft); margin-right: .5em;
+}
+
+.foot {
+  border-top: 1px solid var(--rule);
+  padding-top: 1.5rem; padding-bottom: 2rem;
+  font-family: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  font-size: .85rem; color: var(--ink-soft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}

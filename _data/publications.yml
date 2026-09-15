@@ -1,0 +1,391 @@
+# One entry per publication. Keys: year, authors, title, venue, detail (optional), doi (optional), eprint (optional Enlighten ID).
+- year: 2026
+  authors: Li W, Anagnostopoulos C, Puthiya Parambath SA, Bryson K
+  title: "FedKDMR: Robust federated learning via joint knowledge distillation and model recombination."
+  venue: "32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2026)"
+  detail: "Jeju, Korea, pp. 724–735"
+  doi: 10.1145/3770854.3780160
+  eprint: 372802
+
+- year: 2025
+  authors: Li W, Anagnostopoulos C, Bryson K
+  title: "FedColab: Federated collaborative learning for teacher–student knowledge distillation."
+  venue: "45th IEEE International Conference on Distributed Computing Systems (ICDCS)"
+  detail: "Glasgow, pp. 25–31"
+  doi: 10.1109/ICDCSW63273.2025.00011
+  eprint: 352274
+
+- year: 2025
+  authors: Li W, Anagnostopoulos C, Bryson K
+  title: "Optimization of knowledge distillation in heterogeneous federated problems."
+  venue: "45th IEEE International Conference on Distributed Computing Systems (ICDCS)"
+  detail: "Glasgow, pp. 364–365"
+  doi: 10.1109/ICDCSW63273.2025.00068
+  eprint: 352335
+
+- year: 2025
+  authors: Xiao K, Wang Q, Anagnostopoulos C, Bryson K
+  title: "Resilient inference for personalized federated learning in edge computing environments."
+  venue: "45th IEEE International Conference on Distributed Computing Systems (ICDCS)"
+  detail: "Glasgow, pp. 87–92"
+  doi: 10.1109/ICDCSW63273.2025.00021
+  eprint: 352270
+
+- year: 2025
+  authors: Yi X, Lever J, Bryson K, Meng Z
+  title: "Can we edit LLMs for long-tail biomedical knowledge?"
+  venue: "Findings of EMNLP 2025"
+  detail: "Suzhou, China, pp. 25662–25679"
+  doi: 10.18653/v1/2025.findings-emnlp.1399
+  eprint: 363215
+
+- year: 2025
+  authors: Li W, Anagnostopoulos C, Puthiya Parambath S, Bryson K
+  title: "LIFE: Leader-driven hierarchical and inclusive federated learning."
+  venue: "2024 IEEE International Conference on Big Data"
+  detail: "Washington DC"
+  doi: 10.1109/BigData62323.2024.10825646
+  eprint: 340183
+
+- year: 2024
+  authors: Menegollo M, et al.
+  title: "Multi-state gene cluster switches determine the adaptive mitochondrial and metabolic landscape of breast cancer."
+  venue: "Cancer Research"
+  doi: 10.1158/0008-5472.can-23-3172
+  eprint: 329400
+
+- year: 2023
+  authors: McBride R, Wandy J, Weidt S, Rogers S, Davies V, Daly R, Bryson K
+  title: "TopNEXt: automatic DDA exclusion framework for multi-sample mass spectrometry experiments."
+  venue: "Bioinformatics"
+  detail: "39(7), btad406"
+  doi: 10.1093/bioinformatics/btad406
+  eprint: 301638
+
+- year: 2023
+  authors: Wandy J, McBride R, Rogers S, Terzis N, Weidt S, van der Hooft JJJ, Bryson K, Daly R, Davies V
+  title: "Simulated-to-real benchmarking of acquisition methods in untargeted metabolomics."
+  venue: "Frontiers in Molecular Biosciences"
+  detail: "10, 1130781"
+  doi: 10.3389/fmolb.2023.1130781
+  eprint: 292946
+
+- year: 2022
+  authors: Viñas R, Andrés-Terré H, Liò P, Bryson K
+  title: "Adversarial generation of gene expression data."
+  venue: "Bioinformatics"
+  detail: "38(3), pp. 730–737"
+  doi: 10.1093/bioinformatics/btab035
+  eprint: 269956
+
+- year: 2021
+  authors: Park GW, Bryson K
+  title: "LDEncoder: Reference deep learning-based feature detector for transfer learning in the field of epigenomics."
+  venue: "12th ACM Conference on Bioinformatics, Computational Biology, and Health Informatics (BCB '21)"
+  detail: "Gainesville, Florida"
+  doi: 10.1145/3459930.3469487
+  eprint: 280863
+
+- year: 2021
+  authors: Yan Y, et al.
+  title: "A continuously benchmarked and crowdsourced challenge for rapid development and evaluation of models to predict COVID-19 diagnosis and hospitalization."
+  venue: "JAMA Network Open"
+  detail: "4(10), e2124946"
+  doi: 10.1001/jamanetworkopen.2021.24946
+  eprint: 280862
+
+- year: 2020
+  authors: Xu R, et al.
+  title: "The breast cancer oncogene IKKε coordinates mitochondrial function and serine metabolism."
+  venue: "EMBO Reports"
+  detail: "21(9), e48260"
+  doi: 10.15252/embr.201948260
+  eprint: 280864
+
+- year: 2019
+  authors: Pryor R, et al.
+  title: "Host-microbe-drug-nutrient screen identifies bacterial effectors of metformin therapy."
+  venue: "Cell"
+  detail: "178(6), pp. 1299–1312"
+  doi: 10.1016/j.cell.2019.08.003
+  eprint: 280866
+
+- year: 2019
+  authors: Bentham RB, Bryson K, Szabadkai G
+  title: "Biclustering analysis of co-regulation patterns in nuclear-encoded mitochondrial genes and metabolic pathways."
+  venue: "Cancer Metabolism: Methods and Protocols (Methods in Molecular Biology 1928)"
+  detail: "Springer, pp. 469–478"
+  doi: 10.1007/978-1-4939-9027-6_24
+  eprint: 280865
+
+- year: 2017
+  authors: Bentham RB, Bryson K, Szabadkai G
+  title: "MCbiclust: A novel algorithm to discover large-scale functionally related gene sets from massive transcriptomics data collections."
+  venue: "Nucleic Acids Research"
+  detail: "45(15), pp. 8712–8730"
+  doi: 10.1093/nar/gkx590
+  eprint: 280870
+
+- year: 2017
+  authors: Scott TA, et al.
+  title: "Host-microbe co-metabolism dictates cancer drug efficacy in C. elegans."
+  venue: "Cell"
+  detail: "169(3), pp. 442–456"
+  doi: 10.1016/j.cell.2017.03.040
+  eprint: 280869
+
+- year: 2017
+  authors: Malki K, et al.
+  title: "Highly polygenic architecture of antidepressant treatment response: comparative analysis of SSRI and NRI treatment in an animal model of depression."
+  venue: "American Journal of Medical Genetics Part B"
+  detail: "174(3), pp. 235–250"
+  doi: 10.1002/ajmg.b.32494
+  eprint: 269958
+
+- year: 2016
+  authors: Jiang Y, et al.
+  title: "An expanded evaluation of protein function prediction methods shows an improvement in accuracy."
+  venue: "Genome Biology"
+  detail: "17, 184"
+  doi: 10.1186/s13059-016-1037-6
+  eprint: 270437
+
+- year: 2016
+  authors: Malki K, Koritskaya E, Harris F, Bryson K, Herbster M, Tosto MG
+  title: "Epigenetic differences in monozygotic twins discordant for major depressive disorder."
+  venue: "Translational Psychiatry"
+  detail: "6, e839"
+  doi: 10.1038/tp.2016.101
+  eprint: 280871
+
+- year: 2015
+  authors: Karr JR, et al.
+  title: "Summary of the DREAM8 parameter estimation challenge: toward parameter identification for whole-cell models."
+  venue: "PLoS Computational Biology"
+  detail: "11(5), e1004096"
+  doi: 10.1371/journal.pcbi.1004096
+  eprint: 270438
+
+- year: 2013
+  authors: Buchan DWA, Minneci F, Nugent TCO, Bryson K, Jones DT
+  title: "Scalable web services for the PSIPRED Protein Analysis Workbench."
+  venue: "Nucleic Acids Research"
+  detail: "41(W1), W349–W357"
+  doi: 10.1093/nar/gkt381
+  eprint: 269963
+
+- year: 2013
+  authors: Radivojac P, et al.
+  title: "A large-scale evaluation of computational protein function prediction."
+  venue: "Nature Methods"
+  detail: "10(3), pp. 221–227"
+  doi: 10.1038/nmeth.2340
+  eprint: 270439
+
+- year: 2013
+  authors: Cozzetto D, Buchan DWA, Bryson K, Jones DT
+  title: "Protein function prediction by massive integration of evolutionary analyses and multiple data sources."
+  venue: "BMC Bioinformatics"
+  detail: "14(Suppl 3), S1"
+  doi: 10.1186/1471-2105-14-S3-S1
+  eprint: 269962
+
+- year: 2013
+  authors: Medlar A, Głowacka D, Stanescu H, Bryson K, Kleta R
+  title: "SwiftLink: parallel MCMC linkage analysis using multicore CPU and GPU."
+  venue: "Bioinformatics"
+  detail: "29(4), pp. 413–419"
+  doi: 10.1093/bioinformatics/bts704
+  eprint: 269964
+
+- year: 2013
+  authors: Ellul C, Gupta S, Haklay MM, Bryson K
+  title: "A platform for location based app development for citizen science and community mapping."
+  venue: "Progress in Location-Based Services (Lecture Notes in Geoinformation and Cartography)"
+  detail: "Springer, pp. 71–90"
+  doi: 10.1007/978-3-642-34203-5_5
+  eprint: 280872
+
+- year: 2012
+  authors: Leung MH, Bryson K, Freystatter K, Pichon B, Edwards G, Charalambous BM, Gillespie SH
+  title: "Sequetyping: serotyping Streptococcus pneumoniae by a single PCR sequencing strategy."
+  venue: "Journal of Clinical Microbiology"
+  detail: "50(7), pp. 2419–2427"
+  doi: 10.1128/JCM.06384-11
+  eprint: 269965
+
+- year: 2010
+  authors: Itan Y, Bryson K, Thomas MG
+  title: "Detecting gene duplications in the human lineage."
+  venue: "Annals of Human Genetics"
+  detail: "74(6), pp. 555–565"
+  doi: 10.1111/j.1469-1809.2010.00609.x
+  eprint: 269966
+
+- year: 2010
+  authors: Buchan DWA, Ward SM, Lobley AE, Nugent TCO, Bryson K, Jones DT
+  title: "Protein annotation and modelling servers at University College London."
+  venue: "Nucleic Acids Research"
+  detail: "38(Suppl 2), W563–W568"
+  doi: 10.1093/nar/gkq427
+  eprint: 269967
+
+- year: 2008
+  authors: Edwards YJK, Bryson K, Jones DT
+  title: "A meta-analysis of microarray gene expression in mouse stem cells: redefining stemness."
+  venue: "PLoS ONE"
+  detail: "3(7), e2712"
+  doi: 10.1371/journal.pone.0002712
+  eprint: 269968
+
+- year: 2007
+  authors: Bryson K, Cozzetto D, Jones DT
+  title: "Computer-assisted protein domain boundary prediction using the DomPred server."
+  venue: "Current Protein and Peptide Science"
+  detail: "8(2), pp. 181–188"
+  doi: 10.2174/138920307780363415
+  eprint: 269969
+
+- year: 2006
+  authors: Van de Guchte M, et al.
+  title: "The complete genome sequence of Lactobacillus bulgaricus reveals extensive and ongoing reductive evolution."
+  venue: "Proceedings of the National Academy of Sciences USA"
+  detail: "103(24), pp. 9274–9279"
+  doi: 10.1073/pnas.0603024103
+  eprint: 269972
+
+- year: 2006
+  authors: McGuffin LJ, Smith RT, Bryson K, Sørensen S-A, Jones DT
+  title: "High throughput profile-profile based fold recognition for the entire human proteome."
+  venue: "BMC Bioinformatics"
+  detail: "7, 288"
+  doi: 10.1186/1471-2105-7-288
+  eprint: 269971
+
+- year: 2006
+  authors: Bryson K, et al.
+  title: "AGMIAL: Implementing an annotation strategy for prokaryote genomes as a distributed system."
+  venue: "Nucleic Acids Research"
+  detail: "34(12), pp. 3533–3545"
+  doi: 10.1093/nar/gkl471
+  eprint: 269970
+
+- year: 2005
+  authors: Bryson K, McGuffin LJ, Marsden RL, Ward JJ, Sodhi JS, Jones DT
+  title: "Protein structure prediction servers at University College London."
+  venue: "Nucleic Acids Research"
+  detail: "33(Suppl 2), W36–W38"
+  doi: 10.1093/nar/gki410
+  eprint: 269974
+
+- year: 2005
+  authors: Jones D, Sodhi J, Lise S, McGuffin L, Bryson K
+  title: "Prediction of protein-protein and protein-ligand interactions from protein structures."
+  venue: "30th FEBS Congress and 9th IUBMB Conference"
+  detail: "Budapest, pp. 397–398"
+  doi: 10.1111/j.1742-4658.2005.4739_9.x
+  eprint: 280875
+
+- year: 2005
+  authors: Jones DT, Bryson K, Coleman A, McGuffin LJ, Sadowski MI, Sodhi JS, Ward JJ
+  title: "Prediction of novel and analogous folds using fragment assembly and fold recognition."
+  venue: "Proteins: Structure, Function and Bioinformatics"
+  detail: "61(S7), pp. 143–151"
+  doi: 10.1002/prot.20731
+  eprint: 269973
+
+- year: 2004
+  authors: Sodhi JS, Bryson K, McGuffin LJ, Ward JJ, Wernisch L, Jones DT
+  title: "Predicting metal-binding site residues in low-resolution structural models."
+  venue: "Journal of Molecular Biology"
+  detail: "342(1), pp. 307–320"
+  doi: 10.1016/j.jmb.2004.07.019
+  eprint: 269976
+
+- year: 2004
+  authors: Ward JJ, McGuffin LJ, Bryson K, Buxton BF, Jones DT
+  title: "The DISOPRED server for the prediction of protein disorder."
+  venue: "Bioinformatics"
+  detail: "20(13), pp. 2138–2139"
+  doi: 10.1093/bioinformatics/bth195
+  eprint: 269977
+
+- year: 2004
+  authors: Sodhi JS, McGuffin LJ, Bryson K, Ward JJ, Wernisch L, Jones DT
+  title: "Automatic prediction of functional site regions in low-resolution protein structures."
+  venue: "2004 IEEE Computational Systems Bioinformatics Conference"
+  detail: "Stanford, pp. 702–703"
+  doi: 10.1109/CSB.2004.1332551
+  eprint: 269975
+
+- year: 2004
+  authors: McGuffin LJ, Street SA, Bryson K, Sørensen S-A, Jones DT
+  title: "The Genomic Threading Database: A comprehensive resource for structural annotations of the genomes from key organisms."
+  venue: "Nucleic Acids Research"
+  detail: "32(Suppl 1), D196–D199"
+  doi: 10.1093/nar/gkh043
+  eprint: 269978
+
+- year: 2001
+  authors: McGuffin LJ, Bryson K, Jones DT
+  title: "What are the baselines for protein fold recognition?"
+  venue: "Bioinformatics"
+  detail: "17(1), pp. 63–72"
+  doi: 10.1093/bioinformatics/17.1.63
+  eprint: 269980
+
+- year: 2001
+  authors: Bryson K, Luck M, Joy M, Jones DT
+  title: "Agent interaction for bioinformatics data management."
+  venue: "Applied Artificial Intelligence"
+  detail: "15(10), pp. 917–947"
+  doi: 10.1080/088395101753242688
+  eprint: 269979
+
+- year: 2000
+  authors: McGuffin LJ, Bryson K, Jones DT
+  title: "The PSIPRED protein structure prediction server."
+  venue: "Bioinformatics"
+  detail: "16(4), pp. 404–405"
+  doi: 10.1093/bioinformatics/16.4.404
+  eprint: 269983
+
+- year: 2000
+  authors: Bryson K, Greenall RJ
+  title: "Binding sites of the polyamines putrescine, cadaverine, spermidine and spermine on A- and B-DNA located by simulated annealing."
+  venue: "Journal of Biomolecular Structure and Dynamics"
+  detail: "18(3), pp. 393–412"
+  doi: 10.1080/07391102.2000.10506676
+  eprint: 269982
+
+- year: 2000
+  authors: Bryson K, Luck M, Joy M, Jones DT
+  title: "Applying agents to bioinformatics in GeneWeaver."
+  venue: "Cooperative Information Agents IV (Lecture Notes in Artificial Intelligence 1860)"
+  detail: "Springer, pp. 60–71"
+  doi: 10.1007/978-3-540-45012-2_7
+  eprint: 269981
+
+- year: 1999
+  authors: Fischer D, et al.
+  title: "CAFASP-1: Critical assessment of fully automated structure prediction methods."
+  venue: "Proteins: Structure, Function and Bioinformatics"
+  detail: "37(S3), pp. 209–217"
+  doi: "10.1002/(SICI)1097-0134(1999)37:3+<209::AID-PROT27>3.0.CO;2-Y"
+  eprint: 269984
+
+- year: 1999
+  authors: Jones DT, Tress M, Bryson K, Hadley C
+  title: "Successful recognition of protein folds using threading methods biased by sequence similarity and predicted secondary structure."
+  venue: "Proteins: Structure, Function and Bioinformatics"
+  detail: "37(S3), pp. 104–111"
+  doi: "10.1002/(SICI)1097-0134(1999)37:3+<104::AID-PROT14>3.0.CO;2-P"
+  eprint: 269985
+
+- year: 1996
+  authors: Bryson K, Greenall RJ
+  title: "Molecular dynamics of putrescine."
+  venue: "Journal of the Chemical Society, Faraday Transactions"
+  detail: "92(6), pp. 913–919"
+  doi: 10.1039/FT9969200913
+  eprint: 269986
