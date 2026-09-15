@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" font-family="Arial, Helvetica, sans-serif" role="img" aria-label="Stylised histopathology tile with nuclei, and the same tile with a deep-learning segmentation overlay">
+  <defs>
+    <g id="tissue">
+      <rect x="0" y="0" width="270" height="300" rx="6" fill="#f1d3dc"/>
+      <g fill="#e8b9c6" opacity=".8">
+        <ellipse cx="60" cy="70" rx="55" ry="38"/><ellipse cx="200" cy="60" rx="60" ry="42"/><ellipse cx="140" cy="170" rx="70" ry="48"/>
+        <ellipse cx="50" cy="240" rx="50" ry="40"/><ellipse cx="220" cy="250" rx="58" ry="44"/>
+      </g>
+      <g fill="#6b3a7d">
+        <ellipse cx="45" cy="60" rx="9" ry="7" transform="rotate(20 45 60)"/><ellipse cx="80" cy="85" rx="8" ry="6"/><ellipse cx="185" cy="45" rx="9" ry="7" transform="rotate(-30 185 45)"/>
+        <ellipse cx="225" cy="75" rx="8" ry="7"/><ellipse cx="120" cy="150" rx="11" ry="8" transform="rotate(15 120 150)"/><ellipse cx="160" cy="185" rx="12" ry="9" transform="rotate(-20 160 185)"/>
+        <ellipse cx="135" cy="200" rx="7" ry="6"/><ellipse cx="40" cy="230" rx="8" ry="6"/><ellipse cx="70" cy="255" rx="9" ry="7" transform="rotate(40 70 255)"/>
+        <ellipse cx="205" cy="240" rx="13" ry="10" transform="rotate(10 205 240)"/><ellipse cx="245" cy="270" rx="8" ry="6"/><ellipse cx="100" cy="30" rx="6" ry="5"/>
+        <ellipse cx="250" cy="150" rx="7" ry="6"/><ellipse cx="30" cy="150" rx="7" ry="5"/><ellipse cx="180" cy="290" rx="8" ry="6"/>
+      </g>
+    </g>
+  </defs>
+  <rect width="600" height="380" fill="#f3f6f9" rx="8"/>
+  <g transform="translate(20 20)"><use href="#tissue"/></g>
+  <g transform="translate(310 20)">
+    <use href="#tissue"/>
+    <g fill="none" stroke-width="2.5">
+      <ellipse cx="45" cy="60" rx="12" ry="10" stroke="#2e8b57" transform="rotate(20 45 60)"/><ellipse cx="80" cy="85" rx="11" ry="9" stroke="#2e8b57"/><ellipse cx="185" cy="45" rx="12" ry="10" stroke="#2e8b57" transform="rotate(-30 185 45)"/>
+      <ellipse cx="225" cy="75" rx="11" ry="10" stroke="#2e8b57"/><ellipse cx="120" cy="150" rx="14" ry="11" stroke="#d9534f" transform="rotate(15 120 150)"/><ellipse cx="160" cy="185" rx="15" ry="12" stroke="#d9534f" transform="rotate(-20 160 185)"/>
+      <ellipse cx="135" cy="200" rx="10" ry="9" stroke="#2e8b57"/><ellipse cx="40" cy="230" rx="11" ry="9" stroke="#2e8b57"/><ellipse cx="70" cy="255" rx="12" ry="10" stroke="#2e8b57" transform="rotate(40 70 255)"/>
+      <ellipse cx="205" cy="240" rx="16" ry="13" stroke="#d9534f" transform="rotate(10 205 240)"/><ellipse cx="245" cy="270" rx="11" ry="9" stroke="#2e8b57"/><ellipse cx="100" cy="30" rx="9" ry="8" stroke="#2e8b57"/>
+      <ellipse cx="250" cy="150" rx="10" ry="9" stroke="#2e8b57"/><ellipse cx="30" cy="150" rx="10" ry="8" stroke="#2e8b57"/><ellipse cx="180" cy="290" rx="11" ry="9" stroke="#2e8b57"/>
+    </g>
+    <rect x="0" y="0" width="270" height="300" rx="6" fill="none" stroke="#1f4e79" stroke-width="3" stroke-dasharray="6 5"/>
+  </g>
+  <text x="155" y="348" text-anchor="middle" font-size="13" fill="#52606d">H&amp;E tissue section (stylised)</text>
+  <text x="445" y="348" text-anchor="middle" font-size="13" fill="#52606d">Nuclear segmentation and classification</text>
+</svg>

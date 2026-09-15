@@ -1,21 +1,21 @@
 title: Dr Kevin Bryson
-description: Senior Lecturer in Bioinformatics and Artificial Intelligence, School of Computing Science, University of Glasgow
+description: Senior Lecturer in Bioinformatics and Artificial Intelligence, School of Computing Science, University of Glasgow — AI for cancer -omics integration and histopathology
 url: "https://kbryson.github.io"
-baseurl: ""            # set to "/REPO-NAME" if the site lives at username.github.io/REPO-NAME
+baseurl: ""
 
 author:
   name: Kevin Bryson
   email: Kevin.Bryson@glasgow.ac.uk
   orcid: 0000-0002-1163-6368
   scholar: m_OH6V8AAAAJ
-  x: BioAgentic
+  github: kbryson
+  linkedin: kebryson
+  youtube: BioAI-Research
+  x: BioAI_Research
   office: Room S113, Sir Alwyn Williams Building, University of Glasgow, G12 8QN
 
 markdown: kramdown
 plugins:
   - jekyll-seo-tag
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
+exclude: [Gemfile, Gemfile.lock, README.md]

@@ -6,36 +6,51 @@ permalink: /research/
 
 # Research
 
-<p class="lede">Agentic AI for cancer bioinformatics: integrating deep learning, LLMs and multi-omics data with curated biological knowledge.</p>
+<p class="lede">Deep learning and agentic AI for cancer: integrating multi-omics data, histopathology images and biological knowledge to explain disease mechanisms and make better clinical predictions.</p>
 
-Our aim is to advance agentic AI technologies for applications in cancer bioinformatics. We are interested in integrative approaches that combine deep learning, large language models and high-throughput data — genomics, transcriptomics, proteomics and metabolomics — with existing biological knowledge held in knowledge graphs such as KEGG and Reactome. We believe an agentic approach can make cancer bioinformatics data integration and analysis flexible and goal-driven.
+## Cancer -omics data integration
 
-More about the group's current work is on the [AI4BioMed Lab](https://ai4biomed.org/) site.
+Tumours are described by many layers of data at once — DNA alterations, gene expression, protein abundance, metabolite levels — and each layer on its own gives a partial view. Our aim is to advance agentic AI technologies that integrate these layers. We combine deep learning and large language models with high-throughput genomics, transcriptomics, proteomics and metabolomics data, and with existing biological knowledge held in knowledge graphs such as KEGG and Reactome. An agentic approach lets the analysis be flexible and goal-driven rather than fixed to a single pipeline.
 
-## Current themes
+<figure>
+  <img src="{{ '/assets/img/omics-integration.svg' | relative_url }}" alt="Multi-omics layers and histopathology images, combined with pathway knowledge graphs, feed deep learning and LLM agents that output subtypes, prognosis and mechanisms">
+  <figcaption>Integrating multi-omics and image data with curated pathway knowledge to explain and predict cancer.</figcaption>
+</figure>
 
-**Agentic AI and LLMs for biomedicine.** Editing and grounding large language models with long-tail biomedical knowledge, and representation learning for heterogeneous entities in biomedical pathways.
+Work in this area includes:
 
-**Deep learning on -omics data.** Generative models for gene-expression data, biclustering of large transcriptomic collections (MCbiclust), transfer learning for epigenomics, and masked-autoencoder and contrastive methods for DNA methylation.
+- **Generative models for gene expression** — adversarial generation of realistic transcriptomic data (gGAN; *Bioinformatics* 2022).
+- **Massive-scale biclustering** — MCbiclust, which finds large co-regulated gene sets across thousands of transcriptomes, applied to nuclear-encoded mitochondrial genes and cancer metabolism (*NAR* 2017; *Cancer Research* 2024).
+- **Epigenomics** — transfer learning for DNA methylation and epigenomic feature detection (LDEncoder), and masked-autoencoder and contrastive approaches now under development.
+- **LLMs and biomedical knowledge** — editing language models for long-tail biomedical facts (EMNLP 2025) and representation learning over biomedical pathways.
+- **Federated learning** — knowledge-distillation-based federated methods (LIFE, FedColab, FedKDMR) so that models can learn from distributed clinical data without centralising it.
 
-**Federated and resilient learning.** Knowledge-distillation-based federated learning (LIFE, FedColab, FedKDMR) and resilient inference in edge-computing environments, with the aim of learning from distributed clinical and biomedical data.
+## Computational histopathology
 
-**Mass-spectrometry metabolomics.** Real-time data-acquisition strategies for LC-MS/MS, including the TopNEXt framework within the [ViMMS](https://github.com/glasgowcompbio/vimms) simulator.
+Alongside molecular data, we apply deep learning to haematoxylin-and-eosin tissue images: detecting and segmenting nuclei, classifying tissue regions, and linking image-derived features to -omics profiles and clinical outcome. This work grew out of collaborations with cancer groups at UCL and continues at Glasgow, including studies in breast cancer and liposarcoma.
 
-## Earlier work
+<figure>
+  <img src="{{ '/assets/img/histopathology.svg' | relative_url }}" alt="Stylised H&E tissue tile beside the same tile with nuclei outlined by a segmentation model">
+  <figcaption>From tissue section to nuclear segmentation and classification. Illustration; see the <a href="/software/">Software</a> page for the nuclear image analysis code.</figcaption>
+</figure>
 
-Before Glasgow, much of my research was in protein structure and function prediction with David Jones's group at UCL — including the PSIPRED, DISOPRED and DomPred servers and the Genomic Threading Database — and in multi-agent systems for bioinformatics data management (GeneWeaver, AGMIAL). Later collaborations spanned cancer metabolism, host–microbe interactions and drug efficacy, epigenetics of depression, and community benchmarking efforts such as CAFP and DREAM.
+## Collaborative and translational work
+
+Much of the group's output comes from collaborations with experimental biologists and clinicians: the metabolic landscape of breast cancer and the oncogene IKKε (*Cancer Research*, *EMBO Reports*), host–microbe co-metabolism and drug efficacy (*Cell* 2017, 2019), epigenetics and pharmacogenomics of depression, and community benchmarking efforts such as CAFA, DREAM and the COVID-19 EHR DREAM challenge.
+
+## Earlier research
+
+**Protein structure and function prediction.** At UCL, with David Jones's group, I co-developed and ran several widely used prediction servers: PSIPRED for secondary structure, DISOPRED for intrinsic disorder, DomPred for domain boundaries, the Genomic Threading Database for structural annotation of whole proteomes, and the PSIPRED Protein Analysis Workbench that unified them. This work also covered fold recognition baselines, metal-binding-site prediction, and protein function prediction by integrating evolutionary and multi-source data.
+
+**Multi-agent systems for bioinformatics.** Before UCL, my fellowships at Warwick and INRA developed autonomous multi-agent architectures for bioinformatics data management and distributed genome annotation (GeneWeaver, AGMIAL), including a system that let several INRA laboratories annotate related *Lactobacillus* genomes collaboratively.
+
+**Mass-spectrometry metabolomics.** At Glasgow I have also contributed to the ViMMS virtual mass spectrometer, including the TopNEXt acquisition framework and simulated-to-real benchmarking of acquisition methods.
+
+**Other.** Molecular dynamics of polyamine–DNA binding (DPhil), gene duplication in the human lineage, parallel MCMC linkage analysis (SwiftLink), pneumococcal sequetyping, and a platform for citizen-science mapping apps.
 
 ## PhD students
 
-- **Wenhao Li** — mini-batch gradient-parallel heterogeneous ensembles for large-scale multi-feature data learning optimisation
+- **Wenhao Li** — heterogeneous ensembles and federated learning for large-scale multi-feature data
 - **Ke Xiao** — resilient learning in edge computing
 - **Xinhao Yi** — representation learning of heterogeneous entities in biomedical pathways
 - **Zheng Zhiwei** — DNA methylation detection through masked autoencoders and contrastive learning
-
-## Software and data
-
-- [ViMMS](https://github.com/glasgowcompbio/vimms) — virtual metabolomics mass spectrometer, including TopNEXt
-- [MCbiclust](https://bioconductor.org/packages/MCbiclust/) — massive correlating biclusters (Bioconductor)
-- [Seed .mzML data for ViMMS maximum-matching experiments](https://researchdata.gla.ac.uk/1877/) (2025)
-- [DDA and DIA data for ViMMS 2.0](https://researchdata.gla.ac.uk/1382/) (2022)

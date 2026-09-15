@@ -6,7 +6,7 @@ permalink: /publications/
 
 # Publications
 
-This list is maintained by hand in `_data/publications.yml`. A live, complete record is kept in [Enlighten](https://eprints.gla.ac.uk/view/author/61566.html), [Google Scholar](https://scholar.google.com/citations?user=m_OH6V8AAAAJ) and [ORCID](https://orcid.org/0000-0002-1163-6368).
+<p class="pub-note">Compiled from the University of Glasgow Enlighten record linked to my ORCID. For citation counts and the most complete list see <a href="https://scholar.google.com/citations?user=m_OH6V8AAAAJ">Google Scholar</a> and <a href="https://orcid.org/0000-0002-1163-6368">ORCID</a>. To add a paper, append an entry to <code>_data/publications.yml</code>.</p>
 
 {% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
 {% for group in by_year %}
