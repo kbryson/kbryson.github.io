@@ -18,7 +18,7 @@ Code is on [GitHub](https://github.com/kbryson). Selected repositories:
 
 <div class="repo"><h3><a href="https://github.com/kbryson/liposarcoma">liposarcoma</a></h3><p>Analysis code for a liposarcoma study combining imaging and molecular data. Python.</p></div>
 
-## Earlier tools
+## Other tools
 
 - [PSIPRED Workbench](http://bioinf.cs.ucl.ac.uk/psipred/) — protein secondary structure, disorder, domain and fold prediction (UCL Bioinformatics Group)
 - [ViMMS](https://github.com/glasgowcompbio/vimms) — virtual metabolomics mass spectrometer (Glasgow), including TopNEXt
