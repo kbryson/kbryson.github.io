@@ -6,7 +6,7 @@ permalink: /publications/
 
 # Publications
 
-<p class="pub-note">Compiled from the University of Glasgow Enlighten record linked to my ORCID. For citation counts and the most complete list see <a href="https://scholar.google.com/citations?user=m_OH6V8AAAAJ">Google Scholar</a> and <a href="https://orcid.org/0000-0002-1163-6368">ORCID</a>. To add a paper, append an entry to <code>_data/publications.yml</code>.</p>
+<p class="pub-note"> For citation counts and the most complete list see <a href="https://scholar.google.com/citations?user=m_OH6V8AAAAJ">Google Scholar</a> and <a href="https://orcid.org/0000-0002-1163-6368">ORCID</a>.</p>
 
 {% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
 {% for group in by_year %}
